@@ -1,0 +1,254 @@
+
+React.js
+
+1.       What is the virtual DOM?
+->  React use virtual DOM for work on HTML DOM node,here it use to change state management when we do any changes in dom virtual dom changes only state not do make 
+ changes of whole html dom
+
+2.       What is the primary difference between the ES6 and ES5 standards?
+-> there are lot of changes they have made in ES6 but primary is arrow fun,class and const & let variable
+
+3.       How do you update the state of a component?
+-> using useSate hook
+
+4.       What is PureComponent?
+
+5.       What is React.cloneElement?
+
+6.       What is the difference between mapStateToProps() and mapDispatchToProps() ?
+Give an example.
+7.       How to add multiple middlewares to Redux?
+
+8.       What is wrong with this example, and how would you go -
+class App extends React.Component {
+constructor(props) {
+super(props);
+this.state = {
+name: this.props.name || &#39;Anonymous&#39;
+}
+} render() {
+return (
+&lt;p&gt;Hello {this.state.name}&lt;/p&gt;
+);
+}
+}
+
+9.       Can you explain the differences between all those ways. What
+happens when you click each of the buttons?
+class App extends React.Component {
+ 
+constructor() {
+super();
+this.name = &#39;MyComponent&#39;;
+ 
+this.handleClick2 = this.handleClick1.bind(this);
+}
+ 
+handleClick1() {
+alert(this.name);
+}
+ 
+handleClick3 = () =&gt; alert(this.name);render() {
+return (
+&lt;div&gt;
+
+&lt;button onClick={this.handleClick1()}&gt;click 1&lt;/button&gt;
+&lt;button onClick={this.handleClick1}&gt;click 2&lt;/button&gt;
+&lt;button onClick={this.handleClick2}&gt;click 3&lt;/button&gt;
+&lt;button onClick={this.handleClick3}&gt;click 4&lt;/button&gt;
+&lt;/div&gt;
+);
+}
+}
+ 
+
+10.   What&#39;s the issue with this component. Why? How would you go
+about fixing it?
+class App extends React.Component {state = { search: &#39;&#39; }handleChange = event =&gt;
+{/**
+* This is a simple implementation of a &quot;debounce&quot; function,
+* which will queue an expression to be called in 250ms and
+* cancel any pending queued expressions. This way we can
+* delay the call 250ms after the user has stoped typing.
+*/
+clearTimeout(this.timeout);
+this.timeout = setTimeout(() =&gt; {
+this.setState({
+search: event.target.value
+})
+}, 250);
+}render() {
+return (
+&lt;div&gt;
+&lt;input type=&quot;text&quot; onChange={this.handleChange} /&gt;
+{this.state.search ? &lt;p&gt;Search for: {this.state.search}&lt;/p&gt; : null}
+&lt;/div&gt;
+)
+}
+}
+
+11.   Why is props passed to the super() function in React?
+12.   What are the benefits of HOC?
+
+13.   Why do we need a Router to React?
+->  to render and mapping different pages as per our requirement
+
+14.   Give an example of class component and functional component.
+->  Function Componannt : 
+	function Car() {
+  	return <h2>Hi, I am a Car!</h2>;
+	}
+	
+    Class Componannt:
+	class Car extends React.Component {
+  	render() {
+    	return <h2>Hi, I am a Car!</h2>;
+  	}
+	}
+	
+15.   Explain the purpose of “render()” in React. Give an example.
+-> to render index.html into browser
+
+___________________________________________________________________________________________________________________________________
+
+Node.js
+
+1.      What&#39;s the Event Loop?
+->  Event loop work for excuting process of call back stack (its a stack of call back functions)
+
+2.      What are the advantages of using promises instead of callbacks?
+->  it helps to avoid callback hell
+ 
+3.      How do you create a simple server in Node.js that returns Hello World?
+->  	const http = require('http');
+	
+	http.createServer(function (req, res) {
+  	res.write('Hello World!'); 
+  	res.end(); 
+	}).listen(3000);
+ 
+4.      Which of the following statements is valid to import a module in file?
+a.       var fs = require(&quot;fs&quot;);
+b.      var fs = import(&quot;fs&quot;);
+c.       package fs;
+d.      import fs;
+->a
+
+5.      How to make node modules available externally?
+a.       module.expose
+b.      module.spread
+c.       module.export
+->c
+
+6.      Which of the following are Node.js stream types?
+a.       Duplex
+b.      Readable
+c.       Writable
+d.      All of the above
+->d
+
+7.      What is the default scope of Node.js application?
+a.       Global
+b.      Local
+c.       Public
+d.      Private
+->a
+
+8.      Which module is used to serve static files in Node.js?
+a.       static
+b.      node-static
+c.       http
+d.      node-http
+->c
+
+9.      REPL stands for.
+a.       Research Eval Program Learn
+b.      Read Eval Print Loop
+c.       Read Earn Point Learn
+d.      Read Eval Point Loop
+->b
+
+
+10.  Which of the following code print the platform of operating system?
+a.       console.log(&#39;platform : &#39; + os.platform);
+b.      console.log(&#39;platform : &#39; + os.platform());
+c.       console.log(&#39;platform : &#39; + os.getPlatform());
+d.      None of the above.
+->b
+
+_______________________________________________________________________________________________________________________________
+MongoDB
+
+1 What makes MongoDB the best?
+-> similar with JSON ,scalabal and can deploy with any cloud platform easily
+
+2 How to do transactions/locking in MongoDB?
+->
+3 When and to what extent does data get extended to multi-slice?
+->
+4 Compare MongoDB with Couchbase and CouchbaseDB.
+->
+5 When do we use a namespace in MongoDB?
+6 If you remove an object attribute, is it deleted from the database?
+7 How can we move an old file into the moveChunk directory?
+8 Explain the situation when an index does not fit into RAM.
+9 How does MongoDB provide consistency?
+10 Why is MongoDB not chosen for a 32-bit system?
+11 How does Journaling work in MongoDB?
+12 How can you isolate the cursors from intervening with the write operations?
+13 Define MongoDB.
+14 Explain the replica set.
+15 What are the key features of MongoDB?
+16 What is CRUD?
+-> Create Read Update Delete
+
+17 What is Sharding?
+18 What is Aggregation in MongoDB?
+19 Define Namespace in MongoDB.
+
+_________________________________________________________________________________________________________________________________
+
+MySQL
+
+1 How do you create a table using MySQL? Please write syntax.
+->  using Create Table command
+	CREATE TABLE Student (
+   	 ID int,
+	  Name varchar(255),
+               Address varchar(255)
+    	)
+	);
+
+2 How do you Insert Data Into MySQL? Please write syntax.
+->  using inser into command
+	INSERT INTO Customers (Name, Contact,  City)
+	VALUES ('Nilesh', 7506492989, 'Mumbai');
+
+3 How do you remove a column from a database?
+->  using drop command
+   DROP TABLE Student:
+
+
+4 How to add columns in MySQL?
+->  using Ulter table command
+
+5 How to create an Index in MySQL?
+-> using Create index command
+
+	CREATE INDEX id_lastname
+	ON Students (LastName); 
+
+6 How to Delete Data From a MySQL Table?
+-> using Delete command
+	DELETE FROM table_name WHERE condition;
+
+7 How do you create and execute views in MySQL?
+- >	CREATE VIEW [Products Above Average Price] AS
+	SELECT ProductName, Price
+	FROM Products
+	WHERE Price > (SELECT AVG(Price) FROM Products);
+
+8 What are the Numeric Data Types in MySQL?
+9 What are the Temporal Data Types in MySQL?
+
+___________________________________________________________________________________________________________________________________
