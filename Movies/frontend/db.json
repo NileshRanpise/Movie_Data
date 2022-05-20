@@ -1,0 +1,145 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Movie 1",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?batman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 2,
+      "name": "Movie 2",
+      "rating": "4.2",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 3,
+      "name": "Movie 3",
+      "rating": "2.3",
+      "imgdata": "https://source.unsplash.com/400x450/?movies",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 4,
+      "name": "Movie 4",
+      "rating": "4.1",
+      "imgdata": "https://source.unsplash.com/400x450/?avengers",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 5,
+      "name": "Movie 5",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th july,2022"
+    },
+    {
+      "id": 6,
+      "name": "Movie 6",
+      "rating": "2.2",
+      "imgdata": "https://source.unsplash.com/400x450/?tech",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 7,
+      "name": "Movie 7",
+      "rating": "3.7",
+      "imgdata": "https://source.unsplash.com/400x450/?starwars",
+      "date": "12th june,2022"
+    },
+    {
+      "id": 8,
+      "name": "Movie 8",
+      "rating": "1.8",
+      "imgdata": "https://source.unsplash.com/400x450/?tech",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 9,
+      "name": "Movie 9",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?batman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 10,
+      "name": "Movie 10",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 11,
+      "name": "Movie 11",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?war",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 12,
+      "name": "Movie 12",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 13,
+      "name": "Movie 13",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?ironman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 14,
+      "name": "Movie 14",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?captainamerica",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 15,
+      "name": "Movie 15",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?avengers",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 16,
+      "name": "Movie 16",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 17,
+      "name": "Movie 17",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?batman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 18,
+      "name": "Movie 18",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?batman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 19,
+      "name": "Movie 19",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?wonderwoman",
+      "date": "10th june,2022"
+    },
+    {
+      "id": 20,
+      "name": "Movie 20",
+      "rating": "3.8",
+      "imgdata": "https://source.unsplash.com/400x450/?superman",
+      "date": "10th june,2022"
+    }
+  
+  ]
+}

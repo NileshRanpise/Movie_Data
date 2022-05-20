@@ -1,0 +1,25 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "Nilesh Ranpise",
+        "imgdata":"https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
+        "rating": "3.8",
+        "date": "1,June,2022"
+      },
+      {
+        "id": 2,
+        "name": "Nilesh Ranpise",
+        "imgdata":"https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
+        "rating": "3.8",
+        "date": "1,June,2022"
+      },
+      {
+        "id": 3,
+        "name": "Nilesh Ranpise",
+        "imgdata":"https://i02.appmifile.com/867_operator_in/23/04/2021/3849c44ac78d65621750a114811711f9.png?width=140&height=140",
+        "rating": "3.8",
+        "date": "1,June,2022"
+      }
+    ]
+  }
