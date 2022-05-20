@@ -2,7 +2,7 @@
 
 Tools used : 
 
-Frontend : React + Bootstrap + React + react-router-dom
+Frontend : React + Bootstrap +  react-router-dom
 
 Backend : axios + json-server + db.json
 
